@@ -8,8 +8,15 @@
 .tick text{
   fill: #8e8883;
 }
-.mark{
+.mark circle{
   fill: #137B80;
+}
+.mark path{
+  fill:none;
+  stroke:#d8b365;
+  stroke-width: .2em;
+  stroke-linejoin: round;
+  stroke-linecap: round;
 }
 .axis-label{
   font-size: 2.5em;
